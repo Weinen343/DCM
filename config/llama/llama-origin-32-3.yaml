@@ -1,0 +1,18 @@
+model:
+  type: origin
+  path: models--meta-llama--Llama-3.1-8B-Instruct
+  base: 500000
+  distance_scale: 1.0
+  fattn: false
+
+  
+
+
+merge:
+  length: 32
+  n_dim: 128
+  n_layer: 3
+
+max_len: 2147483647
+chunk_size: 32
+conv_type: llama-3-inst
